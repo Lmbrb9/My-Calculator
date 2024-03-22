@@ -1,0 +1,66 @@
+button
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color:hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px; 
+    padding: 25px;
+}
+#Amr{
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 25px;
+    max-width:500px;
+    overflow: hidden;
+    
+}
+#disp{
+    width:100%;
+    height: 100px;
+    background-color:hsl(0, 0%, 30%);
+    border: none;
+    text-align: left;
+    font-size: 5rem;
+    color: #ffffff;
+
+
+}
+body{
+    margin: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color:hsl(0, 0%, 20%);
+}
+button:active{
+    background-color:hsl(0, 0%, 50%);
+}
+.op-btn{
+    background-color: orangered;
+}
+.op-btnn{
+    background-color: rgb(220, 117, 20);
+}
+.op-btn:hover{
+    background-color: rgb(220, 117, 30);
+}
+.op-btnn:hover{
+    background-color: orangered;
+}
+.op-btn:active{
+    background-color: black;
+}
+.op-btnn:active{
+    background-color: black;
+}
